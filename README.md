@@ -1,6 +1,7 @@
 # homeMonitor
 
-Disclaimer: This is a learning project and is my first big project using Node, Angular, and MonoDB. There are likely mistakes, so use at your own risk and any feedback would be helpful. There is also no security yet, so this should only be used on a local network and not exposed to the internet.
+Disclaimer: This is a learning project and is my first big project using Node, Angular, and MonoDB. There are likely mistakes, so use at your own risk and any feedback would be helpful. There is also no security yet, so this should only be used on a local network and not exposed to the internet.  
+  
 I started this project because I wanted a web dashboard to display data from sensors around my house. My goal was to have a platform that would allow easy logging of data from remote sensor nodes, display both current and historic data, and generate a dashboard from a list of sensors.
 
 #Setup
