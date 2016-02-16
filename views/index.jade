@@ -1,0 +1,15 @@
+extends layout
+
+block nav
+	+nav("Home Monitor", "dropdown_menu")
+		+nav_item("/", "active") Home
+		+nav_item("/temp") Tempertures
+		+nav_item("/power") Power Usage
+
+block content
+	div(ng-controller="temp")
+		.row
+			.col-md-2.col-sm-4.col-xs-12(ng-repeat="entry in sensorArray")
+				+panel("{{entry.title}}")
+					div(justgage value="{{entry.reading}}" min="{{entry.min}}" max="{{entry.max}}")
+	
